@@ -7,6 +7,7 @@ locale.setlocale(locale.LC_ALL, 'en_US')
 
 amount = 0
 
+# function to add commas to numbers
 def intWithCommas(x):
     if type(x) not in [type(0), type(0)]:
         raise TypeError("Parameter must be an integer.")
