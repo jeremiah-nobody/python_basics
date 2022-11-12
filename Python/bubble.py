@@ -20,7 +20,9 @@ def bubble(arr):
     return arr
 
 array = [1,2,3,4,5]
+
 #array = [5,2,4,3]
 arr = bubble(array)
+
 print()
 print(arr)
