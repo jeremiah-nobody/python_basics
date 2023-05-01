@@ -141,8 +141,6 @@ def delete_contact():
     conn.commit()
     return
 
-
-
 if __name__ == "__main__":
     main()
 
